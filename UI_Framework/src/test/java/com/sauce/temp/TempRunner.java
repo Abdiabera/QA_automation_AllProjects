@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import com.sauce.base.TestBase;
+
 public class TempRunner {
 
 	public static void main(String[] args) throws IOException {
@@ -15,6 +17,9 @@ public class TempRunner {
 		
 		//System.out.println(System.getProperty("user.dir"));
 		System.out.println(prop.getProperty("timeout"));
+		
+		TestBase testbase= new TestBase();
+		testbase.intialization();
 
 	}
 
