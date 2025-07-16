@@ -1,4 +1,4 @@
-# Abdiabera – Detailed Explanation
+Abdi Abera
 
 ---
 
